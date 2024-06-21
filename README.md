@@ -16,20 +16,22 @@ This project involves the creation of an interactive business intelligence dashb
 
 ## Screenshots
 
-![Customer Analysis](path_to_customer_analysis_screenshot.png)
-*Customer Analysis: Insights into profit by gender and age group.*
+### Time Frame Dashboard
 
-![Profitability Trends](path_to_profitability_trends_screenshot.png)
-*Profitability Trends: Month-over-month growth rates.*
+![image](https://github.com/tushar11720/Excel-Interactive-Business-Intelligence-Dashboard/assets/132842128/70ee0bb6-567a-45a7-a443-de7d2a42c61b)
 
-![Weekday Profitability](path_to_weekday_profitability_screenshot.png)
-*Weekday Profitability: Most profitable days of the week.*
+*Time Frame Dashboard: Analysis of profit trends over time, including month-over-month growth rates.*
 
-![Product Analysis](path_to_product_analysis_screenshot.png)
-*Product Analysis: Top-selling and most profitable products.*
+### Store Dashboard
 
-![Store Performance](path_to_store_performance_screenshot.png)
-*Store Performance: Revenue vs. target comparison for each store.*
+![image](https://github.com/tushar11720/Excel-Interactive-Business-Intelligence-Dashboard/assets/132842128/a7c31a8b-8e8e-4c35-a6eb-cba6e8aef958)
+
+*Store Dashboard: Comparison of revenue vs. target for each store and month-by-month revenue analysis.*
+
+### Profit Dashboard
+
+![image](https://github.com/tushar11720/Excel-Interactive-Business-Intelligence-Dashboard/assets/132842128/aab97aaf-8d37-4fdd-83d2-a376e3bc2a44)
+*Profit Dashboard: Insights into overall profitability, including product profitability and return rates.*
 
 ## VBA Code
 
@@ -46,3 +48,8 @@ Sub ToggleVisibility()
         shp.Visible = msoTrue
     End If
 End Sub
+```
+
+## Conclusion
+
+This interactive business intelligence dashboard leverages Excel's powerful data visualization and VBA scripting capabilities to provide valuable insights into business operations. By automating repetitive tasks and enhancing data exploration, the dashboard significantly improves operational efficiency and decision-making processes. It serves as a critical tool for data-driven decision-making and operational management, ultimately contributing to increased profitability and streamlined business operations.
